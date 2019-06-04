@@ -1,0 +1,59 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+.container
+{
+  width:500px;
+  margin:auto;
+}
+
+#listeTaches a{
+  text-decoration: none;
+  color: #FFF;
+}
+#listeTaches{
+
+  margin: 0 auto;
+  display: block;
+  background: #27ae60;
+  padding: 10px;
+  color: #FFF;
+  overflow: hidden;
+}
+.tache{
+  background: #2ecc71;
+  padding: 10px;
+  height: auto;
+  margin-top: 10px;
+}
+.tacheSupprimer, .tacheInit{
+  text-decoration: none;
+  float: right;
+  display: inline-block;
+  background: none;
+  border:thin solid #FFFFFF;
+  margin-right: 5px;
+  padding: 5px 10px;
+  font-size:10px;
+}
+
+.clearBoth{
+  clear:both;
+}
+
+.tacheContenu{
+  padding:2px;
+}
+
+#ajouterTache{
+  float:right;
+  background: #27ae60;
+  padding: 10px;
+  color: #FFF;
+  margin-top:20px;
+  text-decoration:none;
+  font-size:12px;
+
+}
